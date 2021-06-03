@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100%;
+    background-color: cornflowerblue;
+
+}
+.header-title {
+    width: 1200px;
+    margin: 0 auto;
+    color: white;
+    padding: 5% 0;
+}
+
+.weather {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.weather__cell_long {
+    display: inline-block;
+    border: 1px solid #ffffff;
+    width: 40%;
+    height: 100px;
+    background-color: deepskyblue;
+}
+.weather__cell_short1 {
+    display: inline-block;
+    border: 1px solid #ffffff;
+    width: 20%;
+    height: 100px;
+    background-color: darkblue;
+}
+.weather__cell_short2 {
+    display: inline-block;
+    border: 1px solid #ffffff;
+    width: 20%;
+    height: 100px;
+    background-color: rebeccapurple;
+}
+.second__line__weather__sell-short1 {
+    display: inline-block;
+    border: 1px solid #ffffff;
+    width: 20%;
+    height: 100px;
+    background-color: red;
+}
+.second__line__weather__cell-short2 {
+    display: inline-block;
+    border: 1px solid #ffffff;
+    width: 20%;
+    height: 100px;
+    background-color: indianred;
+}
+.second__line__weather__cell-short3 {
+    display: inline-block;
+    border: 1px solid #ffffff;
+    width: 20%;
+    height: 100px;
+    background-color: yellow;
+}
+.second__line__weather__cell-short4 {
+    display: inline-block;
+    border: 1px solid #ffffff;
+    width: 20%;
+    height: 100px;
+    background-color: lightgreen;
+}
+.third__line__weather__cell-short1 {
+    display: inline-block;
+    border: 1px solid #ffffff;
+    width: 20%;
+    height: 100px;
+    background-color: seagreen;
+}
+.third__line__weather__cell-long {
+    display: inline-block;
+    border: 1px solid #ffffff;
+    width: 40%;
+    height: 100px;
+    background-color: darksalmon;
+}
+.third__line__weather__cell-short2 {
+    display: inline-block;
+    border: 1px solid #ffffff;
+    width: 20%;
+    height: 100px;
+    background-color: greenyellow;
+}
+.fourth__line__weather__cell-long {
+    isplay: inline-block;
+    border: 1px solid #ffffff;
+    width: 80%;
+    height: 100px;
+    background-color: darkslateblue;
+}
+.discription {
+    margin-left: 80px;
+    padding-top: 10px;
+    color: white;
+    font-size: bold;
+}
